@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthLineID – Tips Kesehatan</title>
+  <link rel="stylesheet" href="css/tips.css">
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <a href="index.html" class="logo">HealthLineID</a>
+    <div class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="health.html" class="active">Tips Kesehatan</a>
+      <a href="lifestyle.html">Gaya Hidup Sehat</a>
+    </div>
+  </nav>
+
+ 
+  <section class="hero">
+    <h2>Tips Kesehatan</h2>
+    <p>Jaga tubuh dan pikiranmu dengan langkah-langkah sederhana setiap hari 💪</p>
+  </section>
+
+ 
+  <section class="tips-container">
+    <div class="tip-card">
+      <h3>Cara Mengatasi Stres Ringan</h3>
+      <p>Stres adalah hal yang wajar, tetapi jika dibiarkan bisa memengaruhi kesehatan mental dan fisikmu.</p>
+      <button onclick="toggleDetail('stres')">Baca Selengkapnya</button>
+      <div id="stres" class="detail">
+        <ul>
+          <li>Luangkan waktu untuk bersantai dan lakukan hal yang kamu sukai.</li>
+          <li>Cobalah teknik pernapasan atau meditasi untuk menenangkan pikiran.</li>
+          <li>Kurangi konsumsi kafein dan tidur cukup setiap malam.</li>
+          <li>Berbagi cerita dengan teman atau keluarga untuk meringankan beban pikiran.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <h3>Cara Menjaga Daya Tahan Tubuh Saat Musim Hujan</h3>
+      <p>Musim hujan seringkali membuat tubuh lebih rentan terhadap penyakit seperti flu dan batuk.</p>
+      <button onclick="toggleDetail('imun')">Baca Selengkapnya</button>
+      <div id="imun" class="detail">
+        <ul>
+          <li>Konsumsi makanan bergizi seperti sayur, buah, dan protein tanpa lemak.</li>
+          <li>Perbanyak minum air putih agar tubuh tidak dehidrasi.</li>
+          <li>Gunakan pakaian hangat dan hindari kehujanan secara langsung.</li>
+          <li>Istirahat cukup dan olahraga ringan untuk menjaga kebugaran.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <h3>Cara Menjaga Kesehatan Mata Saat Menatap Layar HP</h3>
+      <p>Terlalu lama menatap layar HP dapat menyebabkan mata lelah, kering, dan pandangan kabur.</p>
+      <button onclick="toggleDetail('mata')">Baca Selengkapnya</button>
+      <div id="mata" class="detail">
+        <ul>
+          <li>Gunakan aturan 20-20-20: setiap 20 menit lihat objek sejauh 20 kaki selama 20 detik.</li>
+          <li>Atur kecerahan layar sesuai pencahayaan ruangan.</li>
+          <li>Gunakan mode malam atau filter cahaya biru di HP kamu.</li>
+          <li>Perbanyak konsumsi makanan kaya vitamin A, seperti wortel dan ikan.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 HealthLineID | Hidup Sehat untuk Semua</p>
+  </footer>
+
+  <script>
+    function toggleDetail(id) {
+      const detail = document.getElementById(id);
+      detail.style.display = (detail.style.display === 'block') ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>

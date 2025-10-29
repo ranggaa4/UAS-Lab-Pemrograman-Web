@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7fdf9;
+  color: #333;
+}
+
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  border-bottom: 2px solid #2e8b57;
+}
+
+.logo {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #1f6e43;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 25px;
+  font-size: 1em;
+}
+
+.nav-links a:hover {
+  color: #2e8b57;
+}
+
+.nav-links a.active {
+  color: #2e8b57;
+  font-weight: 600;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #eaf9f0;
+}
+
+.hero h2 {
+  color: #2e8b57;
+  font-size: 2.2em;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.1em;
+}
+
+
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 20px;
+}
+
+.tip-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.tip-card h3 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.tip-card p {
+  color: #555;
+}
+
+button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1f6e43;
+}
+
+
+.detail {
+  display: none;
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
