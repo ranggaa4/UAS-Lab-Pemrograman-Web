@@ -97,6 +97,39 @@ body {
   margin: 8px 0;
 }
 
+.random-tip-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+/* Judul */
+.random-tip-container h2 {
+  color: #2f7a42;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+/* Teks tips */
+#randomTip {
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0;
+  font-weight: 500;
+  min-height: 60px;
+  transition: opacity 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 footer {
   background: #2e7d32;
@@ -106,3 +139,4 @@ footer {
   font-size: 14px;
   margin-top: 40px;
 }
+
